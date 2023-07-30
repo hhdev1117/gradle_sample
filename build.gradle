@@ -29,16 +29,23 @@ dependencies {
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
+	implementation 'org.springframework.boot:spring-boot-starter-log4j2'
+
 	// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
 	implementation group: 'org.springdoc', name: 'springdoc-openapi-starter-webmvc-ui', version: '2.1.0'
 
 	// https://mvnrepository.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter
 	implementation group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '3.0.2'
 
-	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-log4j2
-	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-log4j2', version: '3.1.2'
+	// https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8
+	implementation group: 'com.oracle.database.jdbc', name: 'ojdbc8', version: '23.2.0.0'
 
+}
 
+configurations {
+	all {
+		exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+	}
 }
 
 tasks.named('test') {

@@ -1,4 +1,4 @@
-package com.project.gradle_sample.gradle_sample.conf;
+package com.project.gradle_sample.conf;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;

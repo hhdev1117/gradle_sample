@@ -1,4 +1,4 @@
-package com.project.gradle_sample.gradle_sample;
+package com.project.gradle_sample;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

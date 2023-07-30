@@ -1,0 +1,5 @@
+[INFO ] 2023-07-30 15:33:17.694 [Test worker] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.gradle_sample.GradleSampleApplication for test class com.project.gradle_sample.GradleSampleApplicationTests
+[INFO ] 2023-07-30 15:33:18.517 [Test worker] GradleSampleApplicationTests - Starting GradleSampleApplicationTests using Java 20.0.1 with PID 10184 (started by HEEHAE in C:\Users\HEEHAE\Desktop\dev\gradle_sample)
+[DEBUG] 2023-07-30 15:33:18.520 [Test worker] GradleSampleApplicationTests - Running with Spring Boot v3.1.2, Spring v6.0.11
+[INFO ] 2023-07-30 15:33:18.521 [Test worker] GradleSampleApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-07-30 15:33:21.613 [Test worker] GradleSampleApplicationTests - Started GradleSampleApplicationTests in 3.548 seconds (process running for 6.549)

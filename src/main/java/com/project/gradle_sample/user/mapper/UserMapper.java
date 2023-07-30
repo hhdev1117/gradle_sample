@@ -1,6 +1,6 @@
-package com.project.gradle_sample.gradle_sample.user.mapper;
+package com.project.gradle_sample.user.mapper;
 
-import com.project.gradle_sample.gradle_sample.user.dto.UserDto;
+import com.project.gradle_sample.user.dto.UserDto;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

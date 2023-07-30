@@ -1,7 +1,7 @@
-package com.project.gradle_sample.gradle_sample.user.controller;
+package com.project.gradle_sample.user.controller;
 
-import com.project.gradle_sample.gradle_sample.user.dto.UserDto;
-import com.project.gradle_sample.gradle_sample.user.service.UserService;
+import com.project.gradle_sample.user.dto.UserDto;
+import com.project.gradle_sample.user.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;

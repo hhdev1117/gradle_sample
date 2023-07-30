@@ -1,4 +1,4 @@
-package com.project.gradle_sample.gradle_sample;
+package com.project.gradle_sample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
